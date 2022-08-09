@@ -1,0 +1,53 @@
+body {
+    background: black;
+    color: white;
+    padding: 180px 10% 70px;
+    font-size: 0.9em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body, button {
+    font-family: 'Press Start 2P', cursive;
+    line-height: 25px;
+}
+
+button {
+    font-size: 0.8em;
+    cursor: pointer;
+    background: none;
+    border: 1px solid white;
+    border-radius: 25px;
+    color: white;
+    padding: 4px 15px;
+    transition: all 0.3s ease;
+}
+
+button:disabled {
+    cursor: default;
+    color: gray;
+    border-color: gray;
+}
+
+button:not([disabled]):hover {
+    border: 1px solid transparent;
+    text-decoration: underline;
+}
+
+input {
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    padding: 10px 15px;
+    color: white;
+}
+
+input:focus {
+    border-color: white;
+}
+
+input:disabled {
+    color: gray;
+}

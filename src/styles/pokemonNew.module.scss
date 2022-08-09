@@ -1,0 +1,90 @@
+.formWrapper {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px 30px 40px;
+    border-radius: 10px;
+
+    h3 {
+        margin-bottom: 50px;
+    }
+
+    .inputWrapper {
+        margin-bottom: 30px;
+
+        > label {
+            display: block;
+            margin: 50px 0 20px;
+        }
+
+        .imagePreview {
+            max-width: 100%;
+            max-height: 120px;
+            margin-top: 20px;
+        }
+
+        input {
+            width: 100%;
+        }
+
+        input[type="file"] {
+            cursor: pointer;
+        }
+
+        .errorMessage {
+            color: red;
+            font-size: 0.8em;
+            text-align: center;
+        }
+    }
+
+    .typesWrapper {
+        display: flex;
+        flex-wrap: wrap;
+
+        .typeButton:hover {
+            border: 1px solid white;
+        }
+
+        .selectedTypeButton, .typeButton {
+            margin: 0 10px 10px 0;
+            text-transform: capitalize;
+        }
+
+        .selectedTypeButton {
+            color: #3c73e2;
+            border-color: #3c73e2;
+        }
+    }
+
+    .statsWrapper {
+        display: grid;
+        grid-template-columns: 47% 47%;
+        column-gap: 6%;
+    }
+
+    .statsInput {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .submitButton {
+        margin: 30px 0 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .formWrapper {
+        .inputWrapper {
+            display: grid;
+            grid-template-columns: 25% 60%;
+            column-gap: 5%;
+
+            > label {
+                margin: 0;
+            }
+        }
+    }
+}
