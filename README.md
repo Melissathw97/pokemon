@@ -1,46 +1,29 @@
-# Getting Started with Create React App
+# Gotta Catch 'Em All
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### `Pokémon Index`
 
-In the project directory, you can run:
+Browse through a list of Pokémon
 
-### `npm start`
+![image](https://user-images.githubusercontent.com/59414122/183550653-772637e2-b262-46cb-99c0-b884f5d6cee9.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### `Pokémon Show`
 
-### `npm test`
+Get to know individual Pokémon
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://user-images.githubusercontent.com/59414122/183550941-f31310a6-1d31-4cc0-a3c4-df76eaf1269b.png)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `Pokémon Search`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Search for the Pokémon of your choice
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![image](https://user-images.githubusercontent.com/59414122/183551022-d7c9afdd-9ffe-4031-a334-1d75e1506c2f.png)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### `Pokémon New`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Create the Pokémon of your dreams!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+![image](https://user-images.githubusercontent.com/59414122/183551119-ebc2098a-3b21-4dc6-883b-85f5ee4292f7.png)
